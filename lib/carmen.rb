@@ -68,6 +68,7 @@ module Carmen
     def reset_data_paths
       clear_data_paths
       append_data_path(root_path + 'iso_data')
+      append_data_path(root_path + 'isd_data')
     end
 
     # Public: Reset the i18n_backend to a default backend.

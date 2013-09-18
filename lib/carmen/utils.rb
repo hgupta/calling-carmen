@@ -44,7 +44,6 @@ module Carmen
             aggregate << new_hash
           end
         end
-
         aggregate
       end
 

@@ -11,10 +11,14 @@ module Carmen
 
     attr_reader :alpha_2_code
     attr_reader :alpha_3_code
+    attr_reader :calling_code
+    attr_reader :iso_code
 
     def initialize(data={}, parent=nil)
       @alpha_2_code = data['alpha_2_code']
       @alpha_3_code = data['alpha_3_code']
+      @calling_code = "+#{data['calling_code'].to_s}"
+      @iso_code = data['numeric_code']
       super
     end
 

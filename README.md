@@ -16,6 +16,10 @@ Carmen 1.0 features the following:
 * More complete data via the iso-codes Debian package (idea borrowed from [here](https://github.com/pluginaweek/has_addresses))
 * A sane approach to internationalization
 
+Changes in Calling-Carmen:
+
+* Added ISD (International Calling Code) for countries
+
 # How to Use Carmen
 
 Carmen is designed to make it easy to access Country and region data.
