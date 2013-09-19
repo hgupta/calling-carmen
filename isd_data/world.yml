@@ -497,7 +497,7 @@
 - alpha_2_code: NL
   alpha_3_code: NLD
   calling_code: 31
-- alpha_2_code: NO
+- alpha_2_code: 'NO'
   alpha_3_code: NOR
   calling_code: 47
 - alpha_2_code: NP
