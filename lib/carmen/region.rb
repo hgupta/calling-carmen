@@ -86,8 +86,8 @@ module Carmen
     # and overlaying matching data (if it exists) from the overlay_path.
     def load_data_at_path(path)
       data_sets = Carmen.data_paths.map do |data_path|
-        YAML.load_file(data_path + path)
-      end
+        YAML.load_file(data_path + path) if (data_path + path).exist?
+      end.compact
       flatten_data(data_sets)
     end
 
